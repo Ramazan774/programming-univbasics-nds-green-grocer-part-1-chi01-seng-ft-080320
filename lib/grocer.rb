@@ -1,9 +1,14 @@
 def find_item_by_name_in_collection(name, collection)
-  # Implement me first!
+  collection.each do |hash|
+    if hash[:item] == string
+      return hash
+    end
+  end
+  nil 
+end
+# Implement me first!
   #
   # Consult README for inputs and outputs
-
-end
 
 def consolidate_cart(cart)
   # Consult README for inputs and outputs
